@@ -1,0 +1,60 @@
+.header{
+    height: 10hv;
+    line-height: 5hv;
+    background-image: linear-gradient(to right bottom,rgba(0,0,0,0.9),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0));   
+     color: #fff;
+     position: relative;
+     z-index: 999;
+}
+.btn{
+    padding-right: 150px;
+}
+
+.logo img{
+    width: 150px;
+    margin-right: 20px;
+}
+header a{
+    color: white;
+    margin-left: 20px;
+}
+header i{
+    text-align: center;
+    border-radius: 30%;
+    border: 2px solid white;
+    margin: 0 15px;
+    cursor: pointer;
+}
+header button{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.toggle{
+    display: none;
+}
+@media only screen and(max-width:768px) {
+  
+  header.nav.flexSB{
+    display: none;
+  }
+  .account{
+    display: none;
+  }
+  .navMenu-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:red ;
+    width: 50px;
+    height: 100vh;
+    z-index: 999;
+  }
+  .toggle{
+    display: block;
+  }
+ 
+  
+}
